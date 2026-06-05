@@ -1,0 +1,10 @@
+<configuration>
+    <input>
+        <net-file value="minimal.net.xml"/>
+        <route-files value="minimal.rou.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="20"/>
+    </time>
+</configuration>

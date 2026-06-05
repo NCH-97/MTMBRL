@@ -1,0 +1,42 @@
+<edges>
+    <!-- Horizontal connections -->
+    <edge id="e_n_0_0_n_0_1" from="n_0_0" to="n_0_1" priority="1" numLanes="1" speed="13.9"/>
+    <edge id="e_n_0_1_n_0_0" from="n_0_1" to="n_0_0" priority="1" numLanes="1" speed="13.9"/>
+    <edge id="e_n_0_1_n_0_2" from="n_0_1" to="n_0_2" priority="1" numLanes="1" speed="13.9"/>
+    <edge id="e_n_0_2_n_0_1" from="n_0_2" to="n_0_1" priority="1" numLanes="1" speed="13.9"/>
+    <edge id="e_n_0_2_n_0_3" from="n_0_2" to="n_0_3" priority="1" numLanes="1" speed="13.9"/>
+    <edge id="e_n_0_3_n_0_2" from="n_0_3" to="n_0_2" priority="1" numLanes="1" speed="13.9"/>
+
+    <edge id="e_n_1_0_n_1_1" from="n_1_0" to="n_1_1" priority="1" numLanes="1" speed="13.9"/>
+    <edge id="e_n_1_1_n_1_0" from="n_1_1" to="n_1_0" priority="1" numLanes="1" speed="13.9"/>
+    <edge id="e_n_1_1_n_1_2" from="n_1_1" to="n_1_2" priority="1" numLanes="1" speed="13.9"/>
+    <edge id="e_n_1_2_n_1_1" from="n_1_2" to="n_1_1" priority="1" numLanes="1" speed="13.9"/>
+    <edge id="e_n_1_2_n_1_3" from="n_1_2" to="n_1_3" priority="1" numLanes="1" speed="13.9"/>
+    <edge id="e_n_1_3_n_1_2" from="n_1_3" to="n_1_2" priority="1" numLanes="1" speed="13.9"/>
+
+    <edge id="e_n_2_0_n_2_1" from="n_2_0" to="n_2_1" priority="1" numLanes="1" speed="13.9"/>
+    <edge id="e_n_2_1_n_2_0" from="n_2_1" to="n_2_0" priority="1" numLanes="1" speed="13.9"/>
+    <edge id="e_n_2_1_n_2_2" from="n_2_1" to="n_2_2" priority="1" numLanes="1" speed="13.9"/>
+    <edge id="e_n_2_2_n_2_1" from="n_2_2" to="n_2_1" priority="1" numLanes="1" speed="13.9"/>
+    <edge id="e_n_2_2_n_2_3" from="n_2_2" to="n_2_3" priority="1" numLanes="1" speed="13.9"/>
+    <edge id="e_n_2_3_n_2_2" from="n_2_3" to="n_2_2" priority="1" numLanes="1" speed="13.9"/>
+
+    <!-- Vertical connections -->
+    <edge id="e_n_0_0_n_1_0" from="n_0_0" to="n_1_0" priority="1" numLanes="1" speed="13.9"/>
+    <edge id="e_n_1_0_n_0_0" from="n_1_0" to="n_0_0" priority="1" numLanes="1" speed="13.9"/>
+    <edge id="e_n_0_1_n_1_1" from="n_0_1" to="n_1_1" priority="1" numLanes="1" speed="13.9"/>
+    <edge id="e_n_1_1_n_0_1" from="n_1_1" to="n_0_1" priority="1" numLanes="1" speed="13.9"/>
+    <edge id="e_n_0_2_n_1_2" from="n_0_2" to="n_1_2" priority="1" numLanes="1" speed="13.9"/>
+    <edge id="e_n_1_2_n_0_2" from="n_1_2" to="n_0_2" priority="1" numLanes="1" speed="13.9"/>
+    <edge id="e_n_0_3_n_1_3" from="n_0_3" to="n_1_3" priority="1" numLanes="1" speed="13.9"/>
+    <edge id="e_n_1_3_n_0_3" from="n_1_3" to="n_0_3" priority="1" numLanes="1" speed="13.9"/>
+
+    <edge id="e_n_1_0_n_2_0" from="n_1_0" to="n_2_0" priority="1" numLanes="1" speed="13.9"/>
+    <edge id="e_n_2_0_n_1_0" from="n_2_0" to="n_1_0" priority="1" numLanes="1" speed="13.9"/>
+    <edge id="e_n_1_1_n_2_1" from="n_1_1" to="n_2_1" priority="1" numLanes="1" speed="13.9"/>
+    <edge id="e_n_2_1_n_1_1" from="n_2_1" to="n_1_1" priority="1" numLanes="1" speed="13.9"/>
+    <edge id="e_n_1_2_n_2_2" from="n_1_2" to="n_2_2" priority="1" numLanes="1" speed="13.9"/>
+    <edge id="e_n_2_2_n_1_2" from="n_2_2" to="n_1_2" priority="1" numLanes="1" speed="13.9"/>
+    <edge id="e_n_1_3_n_2_3" from="n_1_3" to="n_2_3" priority="1" numLanes="1" speed="13.9"/>
+    <edge id="e_n_2_3_n_1_3" from="n_2_3" to="n_1_3" priority="1" numLanes="1" speed="13.9"/>
+</edges>

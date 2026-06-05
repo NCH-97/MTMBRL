@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-06-03 22:20:43 by Eclipse SUMO duarouter Version 1.12.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="grid.net.xml"/>
+        <route-files value="trips.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="grid.rou.xml"/>
+        <alternatives-output value="grid.rou.alt.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="100"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="car0" depart="0.00">
+        <routeDistribution last="0">
+            <route cost="30.32" probability="1.00000000" edges="e_n_0_3_n_1_3 e_n_1_3_n_0_3 e_n_0_3_n_0_2 e_n_0_2_n_1_2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car1" depart="2.00">
+        <routeDistribution last="0">
+            <route cost="37.58" probability="1.00000000" edges="e_n_1_1_n_1_0 e_n_1_0_n_1_1 e_n_1_1_n_0_1 e_n_0_1_n_0_0 e_n_0_0_n_1_0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car2" depart="4.00">
+        <routeDistribution last="0">
+            <route cost="23.60" probability="1.00000000" edges="e_n_0_2_n_0_3 e_n_0_3_n_1_3 e_n_1_3_n_1_2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car3" depart="6.00">
+        <routeDistribution last="0">
+            <route cost="46.21" probability="1.00000000" edges="e_n_2_1_n_2_0 e_n_2_0_n_1_0 e_n_1_0_n_1_1 e_n_1_1_n_1_2 e_n_1_2_n_1_3 e_n_1_3_n_2_3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car4" depart="9.00">
+        <routeDistribution last="0">
+            <route cost="37.38" probability="1.00000000" edges="e_n_0_1_n_0_2 e_n_0_2_n_0_1 e_n_0_1_n_1_1 e_n_1_1_n_2_1 e_n_2_1_n_2_2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car5" depart="15.00">
+        <routeDistribution last="0">
+            <route cost="31.03" probability="1.00000000" edges="e_n_0_2_n_1_2 e_n_1_2_n_0_2 e_n_0_2_n_0_3 e_n_0_3_n_1_3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car6" depart="16.00">
+        <routeDistribution last="0">
+            <route cost="31.58" probability="1.00000000" edges="e_n_0_2_n_1_2 e_n_1_2_n_0_2 e_n_0_2_n_0_1 e_n_0_1_n_0_2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car7" depart="26.00">
+        <routeDistribution last="0">
+            <route cost="36.56" probability="1.00000000" edges="e_n_1_0_n_0_0 e_n_0_0_n_0_1 e_n_0_1_n_0_2 e_n_0_2_n_0_3 e_n_0_3_n_1_3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car8" depart="36.00">
+        <routeDistribution last="0">
+            <route cost="29.47" probability="1.00000000" edges="e_n_0_0_n_1_0 e_n_1_0_n_1_1 e_n_1_1_n_0_1 e_n_0_1_n_0_2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car9" depart="38.00">
+        <routeDistribution last="0">
+            <route cost="52.28" probability="1.00000000" edges="e_n_1_0_n_2_0 e_n_2_0_n_2_1 e_n_2_1_n_2_2 e_n_2_2_n_2_3 e_n_2_3_n_1_3 e_n_1_3_n_2_3 e_n_2_3_n_2_2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car10" depart="40.00">
+        <routeDistribution last="0">
+            <route cost="38.49" probability="1.00000000" edges="e_n_2_0_n_1_0 e_n_1_0_n_1_1 e_n_1_1_n_1_2 e_n_1_2_n_1_3 e_n_1_3_n_2_3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car11" depart="51.00">
+        <routeDistribution last="0">
+            <route cost="31.03" probability="1.00000000" edges="e_n_1_0_n_1_1 e_n_1_1_n_1_0 e_n_1_0_n_0_0 e_n_0_0_n_0_1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car12" depart="53.00">
+        <routeDistribution last="0">
+            <route cost="30.04" probability="1.00000000" edges="e_n_2_2_n_1_2 e_n_1_2_n_2_2 e_n_2_2_n_2_3 e_n_2_3_n_1_3"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car13" depart="54.00">
+        <routeDistribution last="0">
+            <route cost="30.12" probability="1.00000000" edges="e_n_1_1_n_2_1 e_n_2_1_n_1_1 e_n_1_1_n_0_1 e_n_0_1_n_0_0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car14" depart="66.00">
+        <routeDistribution last="0">
+            <route cost="21.10" probability="1.00000000" edges="e_n_1_3_n_0_3 e_n_0_3_n_0_2 e_n_0_2_n_1_2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car15" depart="67.00">
+        <routeDistribution last="0">
+            <route cost="30.47" probability="1.00000000" edges="e_n_0_3_n_0_2 e_n_0_2_n_1_2 e_n_1_2_n_1_3 e_n_1_3_n_1_2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car16" depart="72.00">
+        <routeDistribution last="0">
+            <route cost="6.16" probability="1.00000000" edges="e_n_1_1_n_1_0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car17" depart="74.00">
+        <routeDistribution last="0">
+            <route cost="28.64" probability="1.00000000" edges="e_n_1_1_n_0_1 e_n_0_1_n_0_0 e_n_0_0_n_1_0 e_n_1_0_n_1_1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car18" depart="80.00">
+        <routeDistribution last="0">
+            <route cost="22.58" probability="1.00000000" edges="e_n_2_3_n_2_2 e_n_2_2_n_2_1 e_n_2_1_n_2_2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car19" depart="84.00">
+        <routeDistribution last="0">
+            <route cost="52.28" probability="1.00000000" edges="e_n_1_0_n_2_0 e_n_2_0_n_2_1 e_n_2_1_n_2_2 e_n_2_2_n_2_3 e_n_2_3_n_1_3 e_n_1_3_n_2_3 e_n_2_3_n_2_2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car20" depart="92.00">
+        <routeDistribution last="0">
+            <route cost="24.53" probability="1.00000000" edges="e_n_1_2_n_1_3 e_n_1_3_n_1_2 e_n_1_2_n_0_2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="car21" depart="94.00">
+        <routeDistribution last="0">
+            <route cost="31.14" probability="1.00000000" edges="e_n_0_2_n_0_3 e_n_0_3_n_1_3 e_n_1_3_n_1_2 e_n_1_2_n_2_2"/>
+        </routeDistribution>
+    </vehicle>
+</routes>

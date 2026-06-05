@@ -1,0 +1,18 @@
+<nodes>
+    <!-- 3 rows x 4 columns -->
+    <!-- Format: n_row_col -->
+    <node id="n_0_0" x="0" y="0" type="traffic_light"/>
+    <node id="n_0_1" x="100" y="0" type="traffic_light"/>
+    <node id="n_0_2" x="200" y="0" type="traffic_light"/>
+    <node id="n_0_3" x="300" y="0" type="traffic_light"/>
+
+    <node id="n_1_0" x="0" y="100" type="traffic_light"/>
+    <node id="n_1_1" x="100" y="100" type="traffic_light"/>
+    <node id="n_1_2" x="200" y="100" type="traffic_light"/>
+    <node id="n_1_3" x="300" y="100" type="traffic_light"/>
+
+    <node id="n_2_0" x="0" y="200" type="traffic_light"/>
+    <node id="n_2_1" x="100" y="200" type="traffic_light"/>
+    <node id="n_2_2" x="200" y="200" type="traffic_light"/>
+    <node id="n_2_3" x="300" y="200" type="traffic_light"/>
+</nodes>
